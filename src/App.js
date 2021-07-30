@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/Header";
+import Silverstone from "./components/Track Pages/Silverstone";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div>
         <h1>Welcome to the RTD Track Database!</h1>
       </div>
+      <Silverstone />
     </>
   );
 };

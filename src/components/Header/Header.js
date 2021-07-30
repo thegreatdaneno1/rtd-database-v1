@@ -12,8 +12,8 @@ const Header = () => {
           </a>
         </div>
         <div className={styles.links}>
-          <a to="/" className={styles.link}>
-            SEARCH BY REGION
+          <a to="/silverstone" className={styles.link}>
+            SILVERSTONE
           </a>
           <a to="/" className={styles.link}>
             RACE CALENDAR
