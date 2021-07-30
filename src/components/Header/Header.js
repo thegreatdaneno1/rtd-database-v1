@@ -12,13 +12,13 @@ const Header = () => {
           </a>
         </div>
         <div className={styles.links}>
-          <a to="/silverstone" className={styles.link}>
+          <a href="/" className={styles.link}>
             SILVERSTONE
           </a>
-          <a to="/" className={styles.link}>
+          <a href="/" className={styles.link}>
             RACE CALENDAR
           </a>
-          <a to="/" className={styles.link}>
+          <a href="/" className={styles.link}>
             ABOUT US
           </a>
         </div>
