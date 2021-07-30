@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <header className={styles.header}>
         <div>
-          <a to="/">
+          <a href="/">
             {/* <img src={} className={styles.logo} /> */}
             <span className={styles.title}>RTD Track Database</span>
           </a>
