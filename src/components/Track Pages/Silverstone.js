@@ -315,7 +315,11 @@ class Silverstone extends React.Component {
             </p>
           </div>
           <div className={styles.right}>
-            <img src={GP} className={styles.layoutMap} />
+            <img
+              src={GP}
+              className={styles.layoutMap}
+              alt="Map of silverstone circuit"
+            />
             <p className={styles.listItem}>Length: 3.660 miles / 5.890 km</p>
             <p className={styles.listItem}>Turns: 18 (10r, 8l)</p>
             <p className={styles.listItem}>Direction: Clockwise</p>
