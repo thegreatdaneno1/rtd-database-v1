@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Silverstone.module.css";
 import GP from "../atoms/track images/Silverstone/gp.png";
+// import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 class Silverstone extends React.Component {
   render = () => {
@@ -326,9 +327,23 @@ class Silverstone extends React.Component {
             <p className={styles.listItem}>Years in use: 1948 - Present</p>
           </div>
         </div>
-        <div className={styles.googleMaps}>
-          <div id="mapid"></div>
-        </div>
+        {/* <div className={styles.googleMaps} id="mapid">
+          <MapContainer
+            center={[51.505, -0.09]}
+            zoom={13}
+            scrollWheelZoom={false}
+          >
+            <TileLayer
+              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker position={[51.505, -0.09]}>
+              <Popup>
+                A pretty CSS3 popup. <br /> Easily customizable.
+              </Popup>
+            </Marker>
+          </MapContainer>
+        </div> */}
       </div>
     );
   };

@@ -1,3 +1,24 @@
 #mapid {
   height: 180px;
 }
+
+.circuitPage {
+  margin-top: 100px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.main {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  align-content: space-between;
+  margin-bottom: 200px;
+}
+
+.left {
+  margin-right: 100px;
+}
+
+.right {
+  margin-left: 100px;
+}

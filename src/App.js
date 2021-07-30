@@ -6,9 +6,9 @@ const App = () => {
   return (
     <>
       <Header />
-      <div>
+      {/* <div>
         <h1>Welcome to the RTD Track Database!</h1>
-      </div>
+      </div> */}
       <Silverstone />
     </>
   );
