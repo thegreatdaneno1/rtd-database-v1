@@ -1,10 +1,14 @@
 import React from "react";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>
-      <h1>Welcome to the RTD Track Database!</h1>
-    </div>
+    <>
+      <Header />
+      <div>
+        <h1>Welcome to the RTD Track Database!</h1>
+      </div>
+    </>
   );
 };
 
